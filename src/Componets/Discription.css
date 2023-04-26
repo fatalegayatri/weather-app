@@ -1,0 +1,31 @@
+.section_discription {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+}
+
+.discription {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 0.4rem;
+  font-size: 21px;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.icon_discription {
+  gap: 5px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-direction: row;
+}
+@media (max-width: 1024px) {
+  .section_discription {
+    grid-template-columns: repeat(1fr, 1fr);
+  }
+  /* CSS styles for small screens go here */
+}
